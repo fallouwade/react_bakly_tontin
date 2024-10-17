@@ -9,6 +9,7 @@ import '../../style/App.css'
 import Card2 from './card2.jsx'
 import Ajouter from './modal_ajouter.jsx';
 import Table1 from './table_utili.jsx'
+import tableau from '/public/tableau.json'
 
 
 
@@ -16,13 +17,13 @@ import Table1 from './table_utili.jsx'
 class Accueil extends React.Component{
   constructor(props){
     super(props);
-    this.state = {
-      dashboard: []
+   this.state = {
+      table: tableau.utilisateurs // Utiliser les données importées
     };
   }
 
   render(){
-   
+    const {table}= this.state
     
     return(
 
@@ -39,7 +40,7 @@ class Accueil extends React.Component{
            <section className="  ">
              <div className="content"  id="dashboard">
                <div>
-                <Card2 />
+                <Card2  table= {table} />
               </div>
               <div>
                 <Ajouter />

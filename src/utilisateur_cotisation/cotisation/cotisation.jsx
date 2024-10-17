@@ -6,6 +6,7 @@ import '../../style/index.css'
 import Card3 from './card3.jsx'
 import Table from './table_cotisation.jsx'
 import Modal from './modal_cotisation.jsx'
+import tableau from '/public/tableau.json'
 
 
 
@@ -16,12 +17,13 @@ class Cotisation extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      dashboard: []
+      table: tableau.utilisateurs // Utiliser les données importées
     };
   }
 
   render(){
-   
+       const {table}= this.state
+
     
     return(
 
@@ -41,7 +43,7 @@ class Cotisation extends React.Component{
                 <Modal/>
               </div>
                <div> 
-                 <Card3 />
+                 <Card3 table= {table} />
                </div>
                <div>
                  <Table />

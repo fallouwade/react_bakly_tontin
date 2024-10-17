@@ -1,14 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from '../voir.jsx';
-
+import tableau from '../../../public/tableau.json'
 class Table1 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isModalOpen: false,
       currentUser: null, // Stocke les détails de l'utilisateur courant
-      table: []
+      table:tableau.utilisateurs
     };
   }
 
@@ -20,21 +20,21 @@ class Table1 extends React.Component {
     this.setState({ isModalOpen: false, currentUser: null });
   };
 
-  componentDidMount() {
-    fetch('../../public/tableau.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Erreur de chargement du fichier JSON');
-        }
-        return response.json();
-      })
-      .then(data => {
-        this.setState({ table: data.utilisateurs });
-      })
-      .catch(error => {
-        console.error('Erreur:', error);
-      });
-  }
+  // componentDidMount() {
+  //   fetch('../../public/tableau.json')
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         throw new Error('Erreur de chargement du fichier JSON');
+  //       }
+  //       return response.json();
+  //     })
+  //     .then(data => {
+  //       this.setState({ table: data.utilisateurs });
+  //     })
+  //     .catch(error => {
+  //       console.error('Erreur:', error);
+  //     });
+  // }
 
   render() {
     const { table, isModalOpen, currentUser } = this.state;

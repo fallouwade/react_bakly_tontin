@@ -5,18 +5,23 @@
       "dateInscription": "2023-01-15",
       "montantInscription": 500,
       "index":0,
+      "mois": "Janvier",
       "paiementsMensuels": [
         {
           "montantPaye": 100,
-          "datePaiement": "2023-02-01"
+          "datePaiement": "2023-02-01",
+          "mois": "Février"
         },
         {
           "montantPaye": 100,
-          "datePaiement": "2023-03-01"
+          "datePaiement": "2023-03-01",
+          "mois": "Mars"
+
         },
         {
           "montantPaye": 100,
-          "datePaiement": "2023-04-01"
+          "datePaiement": "2023-04-01",
+          "mois": "Avril"
         }
       ],
       "montantRestant": 200
@@ -26,14 +31,17 @@
       "dateInscription": "2023-03-10",
       "montantInscription": 300,
       "index":1,
+      "mois": "Mars",
       "paiementsMensuels": [
         {
           "montantPaye": 50,
-          "datePaiement": "2023-04-10"
+          "datePaiement": "2023-04-10",
+          "mois": "Avril"
         },
         {
           "montantPaye": 50,
-          "datePaiement": "2023-05-10"
+          "datePaiement": "2023-05-10",
+          "mois": "Mai"
         }
       ],
       "montantRestant": 200
@@ -43,14 +51,17 @@
       "dateInscription": "2023-03-10",
       "montantInscription": 700,
       "index":2,
+      "mois": "Mars",
       "paiementsMensuels": [
         {
           "montantPaye": 100,
-          "datePaiement": "2023-04-10"
+          "datePaiement": "2023-04-10",
+          "mois": "Avril"
         },
         {
           "montantPaye": 100,
-          "datePaiement": "2023-05-10"
+          "datePaiement": "2023-05-10",
+          "mois": "Mai"
         }
       ],
       "montantRestant": 500
@@ -60,14 +71,17 @@
       "dateInscription": "2023-03-10",
       "montantInscription": 600,
       "index":3,
+      "mois": "Mars",
       "paiementsMensuels": [
         {
           "montantPaye": 300,
-          "datePaiement": "2023-04-10"
+          "datePaiement": "2023-04-10",
+          "mois": "Avril"
         },
         {
           "montantPaye": 300,
-          "datePaiement": "2023-05-10"
+          "datePaiement": "2023-05-10",
+          "mois": "Mai"
         }
       ],
       "montantRestant": 0

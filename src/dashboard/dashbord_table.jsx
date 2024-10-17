@@ -1,31 +1,18 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../style/index.css';
+import tableau from '/public/tableau.json'
 
 
 
 class Table1 extends React.Component{
-  constructor(props){
+   constructor(props) {
     super(props);
     this.state = {
-      table: []
+      table: tableau.utilisateurs // Utiliser les données importées
     };
   }
-  componentDidMount() {
-    fetch('../public/tableau.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Erreur de chargement du fichier JSON');
-        }
-        return response.json();
-      })
-      .then(data => {
-        this.setState({ table: data.utilisateurs });
-      })
-      .catch(error => {
-        console.error('Erreur:', error);
-      });
-  }
+  
 
   render(){
     const style={
@@ -36,6 +23,7 @@ class Table1 extends React.Component{
       }
     }
     const {table}= this.state
+    console.log(table)
     return(
           <div className="container-fluid  row px-sm-0 px-md-0 px-0 my-4">
             <div className="col-md-6 col-12">

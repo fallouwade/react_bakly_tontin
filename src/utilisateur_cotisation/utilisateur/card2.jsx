@@ -7,23 +7,15 @@ import '../../style/index.css';
 class Card2 extends React.Component{
   constructor(props){
     super(props);
-    this.state = {
-      card2: []
+   this.state = {
+     mois: new Date().getMonth()
+     
     };
   }
 
   render(){
-    const style={
-      card:{
-        width: '15rem'
-      },
-      card1:{
-        width: '15rem'
-      },
-      card2:{
-        width: '18rem'
-      }
-    }
+     const table= this.props.table.map(item=> item.paiementsMensuels);
+   
     return(
           <div className="container  px-5  mt-md-5 mt-0 pt-md-5 pt-2">
               <div className="row d-flex justify-content-between  gy-3  ">
@@ -32,8 +24,8 @@ class Card2 extends React.Component{
                           <div className="card-body">
                             <p className="card-title">Membre actif <i className="bi bi-circle-fill"></i></p>
                             <h5>
-                                <label>94</label>
-                                Membres
+                                <label> {table.length} </label>
+                                { } Membres
                             </h5>
                             
                           </div>
@@ -56,8 +48,8 @@ class Card2 extends React.Component{
                           <div className="card-body">
                             <p className="card-title">Total Effectif</p>
                             <h5>
-                                <label>100</label>
-                                Membres
+                                <label>{table.length}</label>
+                                { } Membres
                             </h5>
                            
                           </div>

@@ -6,18 +6,22 @@ import '../style/App.css';
 // import Charts from './chart.jsx'
 import Card1 from './card1.jsx'
 import Table1 from './dashbord_table.jsx'
+import tableau from '/public/tableau.json'
+
 
 
 
 class Accueil extends React.Component{
   constructor(props){
     super(props);
-    this.state = {
-      dashboard: []
+     this.state = {
+      table: tableau.utilisateurs // Utiliser les données importées
     };
   }
 
   render(){
+    const {table}= this.state
+    console.log(table)
    
     return(
 
@@ -34,7 +38,7 @@ class Accueil extends React.Component{
            <section className="container-fluid   ">
              <div className=" content"   id="dashboard">
               <div>
-                <Card1 />
+                <Card1 caisse="Caisse" table= {table} />
               </div>
               <div>
                 {/*<Charts />*/}

@@ -3,6 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import image from '/image/img-connexion.png'
 import { Link } from 'react-router-dom';
+import '../style/App.css';
 
 
 
@@ -78,12 +79,12 @@ class Inscription extends React.Component {
         <div id="page-principal" className="d-flex flex-md-row flex-column justify-content-between  ">      
          
            <section  id="bg-principal" className="rounded-end-5 col-md-4 col-12">
-                <div id="div-img"  className=" d-flex justify-content-center  pt-3 " >
+                <div id="div-img"  className=" d-flex justify-content-center   " >
                     < img src={image} alt="img" className="img-fluid "/>
                 </div>
 
             </section>       
-            <div className=" col-md-7 col-12 mt-md-5 mt-0 pt-md-5 pt-2 ">
+            <div className=" col-md-7 col-12  pt-2 ">
                 <div className="col-10 text-center ms-md-0 ms-4">
                     <h3 className="text-success fst-italic   mb-4" >Inscription</h3>
                 </div>

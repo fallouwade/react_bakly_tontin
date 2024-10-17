@@ -62,6 +62,16 @@
   .cotisation th{
         font-size: 10px !important;
   }
+   #form1 label{
+    font-size: 12px !important;
+  }
+  #bg-principal{
+    height: 60% !important;
+  }
+
+#div-img{
+    margin-top: 4%;
+}
   
 }
 @media (max-width: 668px) {
@@ -77,6 +87,16 @@
     font-size: 11px;
 
   }
+  #form1 label{
+    font-size: 10px !important;
+  }
+  #bg-principal{
+    height: 60% !important;
+  }
+
+#div-img{
+    margin-top: 4%;
+}
 
 }
 

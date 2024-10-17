@@ -54,7 +54,7 @@ validateform = ()=>{
             </div>
         </div>
        
-        <div className=" col-md-7 col-12 mt-md-5 mt-1 d-flex flex-column me-5 " >
+        <div className=" col-md-7 col-12 mt-md-2 mt-0 d-flex flex-column me-5 " >
             <h2  id="page-connexion" className="text-center fw-semibold my-5 mx-auto fs-1">
                 Bienvenue sur Bakéli-tontine
             </h2>
@@ -62,7 +62,7 @@ validateform = ()=>{
               
                 <div className="w-50 " id="input">
                     <h3 className="text-center my-3 fw-semibold ">Connectez-vous</h3>
-                    <form onSubmit={this.handleSubmit} id="form" className="row g-1 gy-4 needs-validation d-flex justify-content-center  flex-colum  align-items-center  w-100"  >
+                    <form onSubmit={this.handleSubmit} id="form1" className="row g-1 gy-4 needs-validation d-flex justify-content-center  flex-colum  align-items-center  w-100"  >
                         <div className="col-md-12  align-items-center d-flex flex-column justify-content-center">
                           <input type="number"  className="form-control border border-0 text-white"  placeholder="N° Téléphone" required />
                          

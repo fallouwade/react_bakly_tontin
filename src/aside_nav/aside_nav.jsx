@@ -136,11 +136,11 @@ class Aside extends React.Component {
                       <ul className="dropdown-menu g-0 text-white dropdown-menu-end dropdown-menu-lg-end border border-0" style={{ backgroundColor: '#093545' }}>
                         <li>
                           <button className="dropdown-item text-white m-0 p-0 fs-6 p-2"  type="button">
-                          <Link className="text-decoration-none text-white" to="/parametre/paramettre_generaux/">Parametre generaux</Link></button>
+                          <Link className="text-decoration-none text-white" to="/parametre/paramettre_generaux">Parametre generaux</Link></button>
                         </li>
                         <li>
                           <button className="dropdown-item text-white m-0 p-2 fs-6"  type="button">
-                          <to className="text-decoration-none text-white" to="/parametre/paramettre_utili/">Utilisateurs</to></button>
+                          <Link className="text-decoration-none text-white" to="/parametre/paramettre_utili/">Utilisateurs</Link></button>
                         </li>
                         <li>
                           <button className="dropdown-item text-white m-0 p-2 fs-6"  type="button">

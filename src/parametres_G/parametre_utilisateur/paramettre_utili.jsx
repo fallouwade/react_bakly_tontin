@@ -1,9 +1,13 @@
+
+
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Aside from '../../aside_nav/aside_nav.jsx'
 import Nav from '../../aside_nav/nav.jsx'
 import '../../style/index.css'
 import Utilisateur_p from './paramettre_util.jsx'
+
 
 
 
@@ -16,7 +20,7 @@ class Paramettre_utili extends React.Component{
   }
 
   render(){
-     
+    
     
     return(
 
@@ -30,13 +34,14 @@ class Paramettre_utili extends React.Component{
 
             </div>
             </div>
-            <div className="content "  id="dashboard">
-              <div>
-                <div>
-                  <h1 className="bg-body-secondary p-3">Utilisateurs</h1>
-                </div>
-                <Utilisateur_p />
-              </div>
+
+            <div className="container-fluid "  id="dashboard">
+          
+
+            <div >
+              <Utilisateur_p />
+            </div>
+
             </div>
 
           </section>

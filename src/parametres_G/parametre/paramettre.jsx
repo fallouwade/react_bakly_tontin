@@ -31,7 +31,7 @@ class Paramettre extends React.Component{
             </div>
             </div>
 
-            <div className="content "  id="dashboard">
+            <div className=""  id="dashboard">
           
 
             <div>

@@ -17,9 +17,9 @@ class Profil_generau extends React.Component{
     return(
           <div className="container-fluid px-md-5 px-0  my-3">
 
-             <div id="content2">
+             <div className="container-fluid">
                  
-                 <div id="parametresgeneraux" className="section2  ">
+                 <div >
                     
                     <div className="container-fluid p-3 bg-white">
                       <div className="row">

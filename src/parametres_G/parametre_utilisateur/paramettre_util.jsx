@@ -15,15 +15,15 @@ class Utilisateur_p extends React.Component{
   render(){
     
     return(
-          <div className="container-fluid    my-3">
-             <div id="utilisateur2" className="section2  bg-light">
+          <div className="container    my-3">
+             <div  className=" container-fluid bg-light">
                     
                     <div className="container-fluid bg-white">
                       <div className="row">
                         <div className="col ms-4">
                           <h4>Membre</h4>
                           <div className="d-flex gap-5">
-                              <div className="col-12 col-md-5 ">
+                              <div className="col-md-5 col-12 ">
                                 <table className="table  no-border ">
                                   <tbody>
                                     
@@ -54,8 +54,8 @@ class Utilisateur_p extends React.Component{
                                   </tbody>
                                 </table>
                               </div>
-                              <div className="col-md-2 text-center" id="admin">
-                                  <div className="trait mx-5"><div className="trai1"></div></div>
+                              <div className="col-md-2 text-center" >
+                                  <div className=" mx-5"><div ></div></div>
                               </div>
                           </div>
                         </div>
@@ -119,7 +119,7 @@ class Utilisateur_p extends React.Component{
                         </div>
                       </div>
                      
-                       <div className="box p-2">
+                       <div className="container-fluid p-2">
                         <button type="button" className="btn text-black bg-success"><a href="#">Preview</a></button>
                         <button type="button" className="btn text-black bg-success"><a href="#">Next</a></button>
                        </div> 

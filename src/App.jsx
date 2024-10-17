@@ -26,7 +26,7 @@ function App() {
           <Route path="/utilisateur/" element={<Utilisateur />} />
            <Route path="/cotisation/" element={<Cotisation />} />
            <Route path="/paramettre/" element={<Paramettre />} />
-            <Route path="/parametre/paramettre_generaux/" element={<Generaux />} />
+            <Route path="/parametre/paramettre_generaux" element={<Generaux />} />
             <Route path="/parametre/paramettre_utili/" element={<Paramettre_utili/>} />
              <Route path="/parametre/archive/" element={<Archives/>} />
         </Routes>

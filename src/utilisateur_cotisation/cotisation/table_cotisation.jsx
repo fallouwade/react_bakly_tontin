@@ -22,7 +22,7 @@ class Table extends React.Component{
     this.setState({ isModalOpen: false, currentUser: null });
   };
    componentDidMount() {
-    fetch('/public/tableau.json')
+    fetch('../../public/tableau.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Erreur de chargement du fichier JSON');

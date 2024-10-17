@@ -21,7 +21,7 @@ class Table1 extends React.Component {
   };
 
   componentDidMount() {
-    fetch('/public/tableau.json')
+    fetch('../../public/tableau.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Erreur de chargement du fichier JSON');

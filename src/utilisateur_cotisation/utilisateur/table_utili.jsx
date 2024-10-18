@@ -95,7 +95,7 @@ class Table1 extends React.Component {
 
                 </table>
             </div>
-            <Modal isOpen={isModalOpen} onClose={this.closeModal} currentUser={currentUser}>
+            <Modal isOpen={isModalOpen} table={table} onClose={this.closeModal} currentUser={currentUser}>
 
          
             </Modal>

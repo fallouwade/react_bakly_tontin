@@ -11,25 +11,11 @@ class Modal extends React.Component {
       table: []
     };
   }
-    componentDidMount() {
-    fetch('/public/tableau.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Erreur de chargement du fichier JSON');
-        }
-        return response.json();
-      })
-      .then(data => {
-        this.setState({ table: data.utilisateurs });
-      })
-      .catch(error => {
-        console.error('Erreur:', error);
-      });
-  }
+   
 
   render() {
-    const { isOpen, onClose, currentUser } = this.props;
-    const {table}= this.state;
+    const { isOpen, table, onClose, currentUser } = this.props;
+    
     let filtre= table.filter(item => item.index == currentUser)
      let modal;
     if(filtre.length !== 0){

@@ -82,10 +82,10 @@ class Table extends React.Component{
                           </tbody>
                     </table>
                 </div>
-                <Modal isOpen={isModalOpen} onClose={this.closeModal} currentUser={currentUser}>
+                <Modal isOpen={isModalOpen} table= {table} onClose={this.closeModal} currentUser={currentUser}/>
 
          
-               </Modal>
+              
           </div>
 
       )

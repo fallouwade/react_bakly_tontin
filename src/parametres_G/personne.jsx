@@ -15,16 +15,16 @@ class Profi extends React.Component{
   render(){
    
     return(
-          <div classNameName="container-fluid    my-3">
-            <div className="row">
+          <div classNameName="container    my-3">
+            <div className="row container">
               <div className="col">
                  <div className=" ">
-                  <p className="text-muted ps-3 ms-md-5 ms-2">Profil</p>
+                  <p className="text-muted  ">Profil</p>
                    <img src="/image/Ellipse 9.png" alt="" className="rounded-circle ms-sm-5 ms-md-3 ms-lg-0 img-profile col-7" />
                   </div>
-                  <div className="row  ">
-                        <h3 className=" mx-3 fs-md-3 fs-4  vert">Ndiagua Sall</h3>
-                        <h5 className="mx-2 vert ms-md-5 ms-5">Admin</h5> 
+                  <div className="row container ">
+                        <h3 className=" mx-2 fs-md-3 fs-4  vert">Ndiagua Sall</h3>
+                        <h5 className=" ps-3 vert ">Admin</h5> 
                       </div>
                   </div>
                   

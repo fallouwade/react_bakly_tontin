@@ -34,7 +34,7 @@ class Generaux extends React.Component{
             <div className="content "  id="dashboard">
           
 
-            <div>
+            <div >
               <Profil_generau />
             </div>
             </div>

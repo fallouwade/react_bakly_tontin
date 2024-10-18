@@ -18,13 +18,13 @@ class Profil extends React.Component{
           <div classNameName="container-fluid    my-5">
                <div   className=" bg-light mt-md-5 mt-0" >
                 <h1 className="pt-md-5 pt-0">Parametre Generaux 1</h1>
-                <div className=" mt-3 bg-white p-3">
+                <div className=" mt-4 bg-white p-3">
                   <div className="row container-fluid">
-                    <div className="col-md-5 col-12  container-fluid ">
+                    <div className="col-md-5 col-12 text-center mb-5 container-fluid ">
                       <Profi />
                     </div>
                     <div className="col-md-6 col-12 container-fluid">
-                    <h3 className='fs-5'>Informations Général </h3>
+                    <h3 className='fs-5 '>Informations Général </h3>
                       <form className="row g-3 ">
                         <div className="col-md-6">
                           <label  className="form-label">Prénom</label>

@@ -17,17 +17,17 @@ class Profil_generau extends React.Component{
     return(
           <div className="  mt-md-3 mt-0 col-12">
                  <h1 className="pt-md-5 pt-0 ps-0 pe-0 m-0 bg-light col-12">Parametre Generaux 1</h1>
-             <div className="container">
+             <div className="container mt-5">
                  
                  <div >
                     
                     <div className="container-fluid pt-md-5 pt-0 mt-md-5 mt-0 bg-white">
                       <div className="row">
-                        <div className=" col-md-4 col-12  me-md-5 me-0 ps-sm-0 ps-5 d-flex border-end border-md-0  border-3 flex-column">
-                            <div>
+                        <div className=" col-md-4 col-12 text-center me-md-5 me-0 ps-sm-0 ps-5 d-flex border-end border-md-0  border-3 flex-column">
+                            <div >
                               <Profi/>
                             </div>
-                            <button className='btn btn-dark btn-sm  mt-4 col-6 ms-md-4 ms-4 mb-5'>Editer profil</button>    
+                            <button className='btn btn-dark btn-sm  mt-4 col-6 ms-md-5 ms-5 mb-5'>Editer profil</button>    
                          
                         </div>
                        

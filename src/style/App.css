@@ -52,6 +52,9 @@ body{
    border: 1px solid yellow;
      width: 75%;
 }
+.tr{
+    background-color: red !important;
+}
 
 
 

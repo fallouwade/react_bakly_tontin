@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../style/index.css';
+import '../style/App.css';
 import tableau from '/public/tableau.json'
 
 
@@ -20,6 +20,9 @@ class Table1 extends React.Component{
       taille:{
         width:'100px',
         height: '10px'
+      },
+      style:{
+        backgroundColor: '#093545'
       }
     }
     const {table}= this.state
@@ -28,9 +31,9 @@ class Table1 extends React.Component{
           <div className="container-fluid  row px-sm-0 px-md-0 px-0 my-4">
             <div className="col-md-6 col-12">
                 <h4>Juin</h4>
-               <table className="table ms-1 shadow-sm col-12 rounded-5" id="table">
-                   <thead className="rounded-1 " >
-                      <tr className="table-success">
+               <table className="table ms-1 shadow-sm col-12 " id="table">
+                   <thead className="rounded-1 tr" >
+                      <tr className="table-success"   >
                               
                         <th scope="col" >Membres</th>
                         <th scope="col">Montant</th>

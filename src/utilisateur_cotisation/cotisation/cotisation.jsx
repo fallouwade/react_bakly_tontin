@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Aside from '../../aside_nav/aside_nav.jsx'
 import Nav from '../../aside_nav/nav.jsx'
-import '../../style/index.css'
+import '../../style/App.css'
 import Card3 from './card3.jsx'
 import Table from './table_cotisation.jsx'
 import Modal from './modal_cotisation.jsx'

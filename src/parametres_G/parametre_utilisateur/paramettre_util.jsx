@@ -15,7 +15,7 @@ class Utilisateur_p extends React.Component{
   render(){
     
     return(
-          <div className="container    my-3">
+          <div className="container-fluid    my-3">
              <div  className=" container-fluid bg-light">
                     
                     <div className="container-fluid bg-white">
@@ -55,11 +55,11 @@ class Utilisateur_p extends React.Component{
                                 </table>
                               </div>
                               <div className="col-md-2 text-center" >
-                                  <div className=" mx-5"><div ></div></div>
+                                  <div ><div ></div></div>
                               </div>
                           </div>
                         </div>
-                        <div className="col-12 col-md-8">
+                        <div className="col-md-8 col-12">
                           <h3>Information General</h3>
                           <form action="" className="p-2">
                               <div className="row g-3 mb-4">

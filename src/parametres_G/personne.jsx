@@ -13,37 +13,21 @@ class Profi extends React.Component{
   }
 
   render(){
-    const style={
-      card:{
-       lineHeight: '1'
-      },
-      card1:{
-       height:'5px' 
-      },
-      card2:{
-        width: "20%",
-       
-      },
-      taille:{
-        height: '14vh'
-      }
-    }
+   
     return(
-          <div classNameName="container    my-3">
+          <div classNameName="container-fluid    my-3">
             <div className="row">
               <div className="col">
-                 <div className=" text-center">
-                  <p className="text-mutedt ">Profil</p>
-                   <img src="/image/Ellipse 9.png" alt="" className="rounded-circle img-profile col-7" />
+                 <div className=" ">
+                  <p className="text-muted ps-3 ms-md-5 ms-2">Profil</p>
+                   <img src="/image/Ellipse 9.png" alt="" className="rounded-circle ms-sm-5 ms-md-3 ms-lg-0 img-profile col-7" />
                   </div>
-                  <div className="row  text-center">
-                        <h3 className="text-center mx-3 fs-md-3 fs-4  vert">Ndiagua Sall</h3>
-                        <h5 className="mx-2 vert ">Admin</h5> 
+                  <div className="row  ">
+                        <h3 className=" mx-3 fs-md-3 fs-4  vert">Ndiagua Sall</h3>
+                        <h5 className="mx-2 vert ms-md-5 ms-5">Admin</h5> 
                       </div>
                   </div>
-                  <div className="col">
-                  <div className="trait mx-5"><div className="trai1"></div></div>
-              </div>
+                  
             </div>
           </div>
 

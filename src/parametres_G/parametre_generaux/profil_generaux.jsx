@@ -15,23 +15,23 @@ class Profil_generau extends React.Component{
   render(){
     
     return(
-          <div className="container-fluid px-md-5 px-0  my-3">
-
-             <div className="container-fluid">
+          <div className="  mt-md-3 mt-0 col-12">
+                 <h1 className="pt-md-5 pt-0 ps-0 pe-0 m-0 bg-light col-12">Parametre Generaux 1</h1>
+             <div className="container">
                  
                  <div >
                     
-                    <div className="container-fluid p-3 bg-white">
+                    <div className="container-fluid pt-md-5 pt-0 mt-md-5 mt-0 bg-white">
                       <div className="row">
-                        <div className=" col-12 col-md-5 d-flex  flex-column">
+                        <div className=" col-md-4 col-12  me-md-5 me-0 ps-sm-0 ps-5 d-flex border-end border-md-0  border-3 flex-column">
                             <div>
                               <Profi/>
                             </div>
-                            <button className='btn btn-dark btn-sm mt-5 col-5  ms-3'>Editer profil</button>    
+                            <button className='btn btn-dark btn-sm  mt-4 col-6 ms-md-4 ms-4 mb-5'>Editer profil</button>    
                          
                         </div>
                        
-                        <div className="col-12 col-md-7">
+                        <div className="col-12 col-md-7 container-fluid">
                                 
                                  <div className="row">
                                     <h6 className=" fw-bold bg-success pt-1 pb-1">Informations Générals</h6>

@@ -44,11 +44,7 @@ class Aside extends React.Component {
       }
     };
 
-    // Appliquer un style responsive pour le sidebar
-    // if (window.matchMedia("(max-width: 768px)").matches) {
-    //   style.index1.width = '0%'; // Modifier le style pour les petits écrans
-    // }
-
+   
     return (
       <div>
         <button
@@ -85,7 +81,7 @@ class Aside extends React.Component {
             <div className="offcanvas-body couleur-bg">
               <ul style={style.ul} className="p-ms-5 p-2">
                 <li className="p-0">
-                  <h4 className="text-white fw-bold my-md-4 my-0 p-0 mx-3 d-flex align-items-center">
+                  <h4 className="text-white fw-bold my-md-1 my-0 p-0 mx-1 d-flex align-items-center">
                     <img src={image1} className="px-1" alt="" />
                     Bakéli Tontinee
                   </h4>

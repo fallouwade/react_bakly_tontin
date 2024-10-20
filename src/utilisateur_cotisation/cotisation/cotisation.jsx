@@ -5,7 +5,7 @@ import Nav from '../../aside_nav/nav.jsx'
 import '../../style/App.css'
 import Card3 from './card3.jsx'
 import Table from './table_cotisation.jsx'
-import Modal from './modal_cotisation.jsx'
+import Modal1 from './modal_cotisation.jsx'
 import tableau from '/public/tableau.json'
 
 
@@ -40,7 +40,7 @@ class Cotisation extends React.Component{
            <section className="  ">
              <div className="content "  id="dashboard">
                <div className="mt-md-5 mt-0 pt-md-5 pt-0">
-                <Modal/>
+                <Modal1/>
               </div>
                <div> 
                  <Card3 table= {table} />

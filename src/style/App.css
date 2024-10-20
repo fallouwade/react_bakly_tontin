@@ -22,6 +22,9 @@ body{
     height: 100% !important;
    
 }
+.bg2{
+     background-color:  #20DF7F !important;
+}
 
 #div-img{
     margin-top: 34%;
@@ -40,6 +43,7 @@ body{
 #btn{
     background-color:  #20DF7F !important;
     width: 265px !important;
+
 }
 
 #input input::placeholder {
@@ -53,8 +57,16 @@ body{
      width: 75%;
 }
 .tr{
-    background-color: red !important;
+    background-color:  #20DF7F !important;
+    
 }
+.diagramme2{
+    height: 250px !important;
+}
+.diagramme1{
+    height: 250px !important;
+}
+
 
 
 
@@ -81,6 +93,9 @@ body{
 #div-img{
     margin-top: 4%;
 }
+#table3{
+    font-size: 11px;
+}
   
 }
 @media (max-width: 668px) {
@@ -92,8 +107,8 @@ body{
     margin-left: 0%  !important;
      margin-top: 25% !important;
   }
-  #table1 th, td, button{
-    font-size: 11px;
+  table th, td, button{
+    font-size: 10px;
 
   }
   #form1 label{
@@ -105,6 +120,9 @@ body{
 
 #div-img{
     margin-top: 4%;
+}
+#table3{
+    font-size: 9px;
 }
 
 }

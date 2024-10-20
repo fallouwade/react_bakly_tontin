@@ -31,7 +31,7 @@ class Table1 extends React.Component{
           <div className="container-fluid  row px-sm-0 px-md-0 px-0 my-4">
             <div className="col-md-6 col-12">
                 <h4>Juin</h4>
-               <table className="table ms-1 shadow-sm col-12 " id="table">
+               <table className="table table-borderless ms-1 shadow col-12 " id="table">
                    <thead className="rounded-1 tr" >
                       <tr className="table-success"   >
                               
@@ -59,7 +59,7 @@ class Table1 extends React.Component{
             </div>
             <div className="col-md-6 col-12">
                 <h4>Top progression</h4>
-               <table className="table ms-1 shadow-sm col-12 " >
+               <table className="table table-borderlessms-1 shadow  col-12 " >
                    <thead className="rounded-1 " >
                       <tr className="table-success">
                               

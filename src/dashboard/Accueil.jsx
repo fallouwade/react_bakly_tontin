@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Aside from '../aside_nav/aside_nav.jsx'
 import Nav from '../aside_nav/nav.jsx'
 import '../style/App.css';
-// import Charts from './chart.jsx'
+ import Chartsjs from './chart.jsx'
 import Card1 from './card1.jsx'
 import Table1 from './dashbord_table.jsx'
 import tableau from '/public/tableau.json'
@@ -41,7 +41,7 @@ class Accueil extends React.Component{
                 <Card1 caisse="Caisse" table= {table} />
               </div>
               <div>
-                {/*<Charts />*/}
+               <Chartsjs />
               </div>
               <div>
                 <Table1 />

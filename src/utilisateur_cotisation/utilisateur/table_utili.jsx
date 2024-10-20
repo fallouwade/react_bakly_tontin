@@ -50,7 +50,7 @@ class Table1 extends React.Component {
        <div className="container-fluid  row px-sm-0 px-md-0 px-0 ">
             <div className="ms-md-3 ms-3">
                 <h4>Juin</h4>
-               <table className="table shadow-sm col-12 rounded-5" id="table1">
+               <table className="table shadow table-borderless col-12 rounded-5" id="table1">
                     <thead className="rounded-1">
               <tr className="table-success">
                 <th scope="col">Membres</th>

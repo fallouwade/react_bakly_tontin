@@ -19,7 +19,7 @@ class Utilisateur_p extends React.Component{
              <div  className=" container-fluid bg-light">
                     
                     <div className="container-fluid bg-white">
-                      <div className="row">
+                      <div className="row mt-5 pt-5">
                         <div className="col ms-4">
                           <h4>Membre</h4>
                           <div className="d-flex gap-5">

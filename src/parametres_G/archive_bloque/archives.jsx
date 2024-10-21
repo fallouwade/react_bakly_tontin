@@ -17,20 +17,7 @@ class Archives extends React.Component{
   }
 
   render(){
-     const zindex={
-      index1:{
-        zIndex:1000
-      },
-      index2:{
-        zIndex:'0'
-      },
-      marge:{
-        marginLeft:'34vw',
-        marginTop: '10%'
-      }
-
-    }
-    
+     
     return(
 
           <section >
@@ -42,8 +29,8 @@ class Archives extends React.Component{
               <Nav name="Admin Dashboard"/>
 
             </div>
-            <div className="content ms-md-0 ms-3 "  id="dashboard">
-            <h2 className="ps-4">10 Membres Archivés </h2>
+            <div className="content ms-md-0 ms-3 mt-5  pt-5"  id="dashboard">
+            <h2 className="ps-4 mt-5">10 Membres Archivés </h2>
             <div>
                <div id="archives" class="section2">
                     

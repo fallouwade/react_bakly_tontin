@@ -47,7 +47,7 @@ class Profil extends React.Component{
                           <input type="text" className="form-control" id="inputStatut" placeholder="Administrateur" required/>
                         </div>
                         <div className=" d-flex justify-content-end">
-                            <button className="btn btn-primary text-white  p-1" type="submit" id="btn-jour">Mettre à jour</button>
+                            <button className="btn btn-dark text-white  p-1" type="submit" id="btn-jour">Mettre à jour</button>
                         </div>
                       </form>
                     </div>

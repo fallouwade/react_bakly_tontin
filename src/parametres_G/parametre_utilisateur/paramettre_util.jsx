@@ -119,10 +119,10 @@ class Utilisateur_p extends React.Component{
                         </div>
                       </div>
                      
-                       <div className="container-fluid p-2">
-                        <button type="button" className="btn text-black bg-success"><a href="#">Preview</a></button>
-                        <button type="button" className="btn text-black bg-success"><a href="#">Next</a></button>
-                       </div> 
+                      {/* <div className="container-fluid p-2">
+                        <button type="button" className="btn text-black bg-success"><a href="#" className="text-decoration-none ms-1">Preview</a></button>
+                        <button type="button" className="btn text-black bg-success"><a href="#" className="text-decoration-none">Next</a></button>
+                       </div>*/} 
                     </div>
                  </div>
           </div>

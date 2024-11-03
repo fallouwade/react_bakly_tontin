@@ -61,12 +61,15 @@ class Inscription extends React.Component {
     this.setState({message_derreur: formErreur });
     return valid;
   }
+  
+
 
   handleSubmit= (event)=> {
     event.preventDefault(); // Empêche le rechargement de la page
     if(this.validateform()){
-        alert("inscription valider")
-        form.reset()
+        
+        window.location="/connexion"
+        form.submit()
 
 
               

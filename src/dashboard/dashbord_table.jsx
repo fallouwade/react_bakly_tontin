@@ -20,11 +20,8 @@ class Table1 extends React.Component{
       taille:{
         width:'100px',
         height: '10px'
-      },
-      style:{
-        backgroundColor: '#093545'
       }
-    }
+         }
     const {table}= this.state
     console.log(table)
     return(
